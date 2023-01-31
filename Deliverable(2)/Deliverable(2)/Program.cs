@@ -42,6 +42,18 @@ class Program
             {
                 letter = "D";
                 Console.WriteLine("Your expected letter grade for ISM 4300 is D");
+
+            }
+            if (grade >=50 && grade < 60)
+            {
+                letter = "E";
+                Console.WriteLine("Your expected letter grade for ISM 4300 is E");
+            }
+            else if (grade >= 40 && grade <50)
+            {
+                letter = "F";
+                Console.WriteLine("Your expected letter grade for ISM 4300 is F");
+
             }
         }
         catch
